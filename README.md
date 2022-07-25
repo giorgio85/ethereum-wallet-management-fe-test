@@ -24,7 +24,9 @@ Runs application tests in console mode.
 ### Tests
 - I added the test divided in 4 categories
 ### Extra Features
-- I used the API suggested, but as the API returns the result in wei -> 10^18 wei = 1 ETH, I did the conversion but the result was ugly, so finally I used a random to show the balance.
-- I added the feature to copy the addresses because I found it useful, it also helped me a lot while testing.
+- I used the API suggested, but as the API returns the result in wei -> 10^18 wei = 1 ETH, I did the conversion but the result was ugly, so finally I used a random to show the balance
+- I added the feature to copy the addresses because I found it useful, it also helped me a lot while testing
 - I added a button to go back to 'My Ethereum addresses' page so we can check that the form worked properly
 
+### Git Issue
+- I use to work creating a branch for each feature but I didn't have time
