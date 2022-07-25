@@ -29,4 +29,4 @@ Runs application tests in console mode.
 - I added a button to go back to 'My Ethereum addresses' page so we can check that the form worked properly
 
 ### Git Issue
-- I use to work creating a branch for each feature but I didn't have time
+- I use to work creating a branch for each feature but I didn't have time. I just created one branch for this update of the README just to show how I use to work.
