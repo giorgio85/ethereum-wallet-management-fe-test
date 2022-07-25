@@ -1,0 +1,48 @@
+$border-style: 1px solid #e0e0f4;
+$small-font-size: 12px;
+$lighten-color: lighten(#202532, 20%);
+
+.address {
+  align-items: baseline;
+  &-account,
+  &-unit {
+    font-size: $small-font-size;
+    letter-spacing: 0.05em;
+    color: $lighten-color;
+  }
+  &-quantity {
+    align-items: baseline;
+  }
+}
+
+.addresses-footer {
+  align-items: center;
+  font-size: $small-font-size;
+  border-top: $border-style;
+  span {
+    padding-right: 2rem;
+  }
+}
+
+hr {
+  border: $border-style !important;
+  margin: 0 1.6rem !important;
+}
+
+.col-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.copy-icon {
+  width: 16px;
+  height: 16px;
+  &:hover {
+    width: 20px;
+    height: 20px;
+  }
+  &:active {
+    width: 16px;
+    height: 16px;
+  }
+}

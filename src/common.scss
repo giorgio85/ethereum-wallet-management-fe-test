@@ -1,0 +1,35 @@
+$primary: #6932d4;
+$secondary: #f5f5ff;
+$border-style: 1px solid #e0e0f4;
+$small-font-size: 12px;
+
+.card {
+  box-shadow: 0px 8px 24px rgba(32, 37, 50, 0.15);
+  border-radius: 8px !important;
+  border: 1px solid rgba(105, 50, 212, 0.2) !important;
+
+  .header {
+    font-size: 20px !important;
+  }
+
+  .body {
+    background-color: $secondary !important;
+    border-top: $border-style;
+  }
+  
+  button {
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: $primary;
+    font-size: $small-font-size;
+    &:hover {
+      cursor: pointer;
+    }
+    &.disabled {
+      cursor: default !important;
+      background-color: lighten($primary, 20%) !important;
+    }
+  }
+}

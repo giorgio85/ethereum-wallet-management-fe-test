@@ -1,0 +1,55 @@
+$small-font-size: 12px;
+$primary: #6932d4;
+$lighten-color: lighten(#202532, 20%);
+
+.form-entry {
+  padding: 1rem 2rem 0;
+  &-id {
+    margin-bottom: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: $small-font-size;
+    line-height: 1rem;
+    color: $lighten-color;
+  }
+  input {
+    border: 1px solid $primary;
+    width: 100%;
+    border-radius: 8px;
+    &:focus {
+      outline: 1px solid $primary;
+    }
+    &[type='text'] {
+      letter-spacing: 0.05em;
+      font-size: $small-font-size;
+      padding: 0.5rem;
+      color: $lighten-color;
+    }
+    &[type='number'] {
+      font-weight: bold;
+      padding: 0.3rem;
+    }
+    &.invalid {
+      border: 1px solid red;
+      &:focus {
+        outline: 1px solid red;
+      }
+    }
+  }
+  span {
+    padding-left: 0.5rem;
+    font-size: $small-font-size;
+    color: red;
+  }
+}
+
+// To remove arrows on number inputs:
+// Chrome, Safari, Edge, Opera
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+// Firefox
+input[type='number'] {
+  -moz-appearance: textfield;
+}
